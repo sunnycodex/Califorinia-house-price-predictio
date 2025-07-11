@@ -1,0 +1,13 @@
+prefix=D:/DecssionReg/evnv2/Library
+exec_prefix=D:/DecssionReg/evnv2/Library
+libdir=D:/DecssionReg/evnv2/Library/lib
+sharedlibdir=D:/DecssionReg/evnv2/Library/lib
+includedir=D:/DecssionReg/evnv2/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

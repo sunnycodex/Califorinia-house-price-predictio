@@ -1,0 +1,12 @@
+prefix=d:/DecssionReg/evnv2/Library
+exec_prefix=d:/DecssionReg/evnv2/Library
+libdir=d:/DecssionReg/evnv2/Library/lib
+includedir=d:/DecssionReg/evnv2/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
